@@ -80,11 +80,11 @@ Air Cargo provides air transportation services for passengers and freight. The c
 
 Query:
 
-///
+<pre>
 select * from passengers_on_flights
 
 where route_id between  1 and 25
 
 order by route_id;
-///
+</pre>
 
